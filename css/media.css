@@ -1,0 +1,61 @@
+@media (max-width: 1000px) {
+    .card2 img {
+      height: 11em;
+    }
+    .line {
+      flex-direction: column; 
+    }
+
+    .img1 {
+        margin-top: 20px; 
+    }
+    
+    .spic,
+    .dag1, .bai1, .bai2, .ter{
+      flex-direction: column; 
+      align-items: center;
+      text-align: center; 
+      height: auto;
+    }
+    .dag1 h1 {
+      margin-bottom: 15px; 
+    }
+    .spic h2{
+      margin-bottom: 15px;
+    }
+    
+    .footer .logo{
+      max-width: 60%;
+    }
+    .footer{
+      font-size: 2vw;
+    }
+    .ticket-description{
+      font-size: calc(0.2rem + 1vw);
+    }
+    .fpic{
+      height: auto;
+    }
+    .text1{
+      font-size: calc(0.5rem + 1vw);
+    }
+  }
+  @media (max-width: 576px) {
+    h1{
+      font-size: 10vw;
+    }
+    h2{
+      font-size: 10vw;
+    }
+
+    .container-fluid h2{
+      font-size: 10vw;
+    }
+    .menu-hamburger {
+      position: absolute;
+      top: 60px;
+      right: 10px;
+      z-index: 1000;
+  }
+    
+  }
