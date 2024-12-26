@@ -37,6 +37,9 @@
     .text1{
       font-size: calc(0.5rem + 1vw);
     }
+    body{
+      overflow-x: hidden;
+    }
   }
   @media (max-width: 576px) {
     h1{
