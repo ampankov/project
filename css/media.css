@@ -5,11 +5,9 @@
     .line {
       flex-direction: column; 
     }
-
     .img1 {
         margin-top: 20px; 
     }
-    
     .spic,
     .dag1, .bai1, .bai2, .ter{
       flex-direction: column; 
@@ -23,7 +21,7 @@
     .spic h2{
       margin-bottom: 15px;
     }
-    
+
     .footer .logo{
       max-width: 60%;
     }
@@ -57,5 +55,4 @@
       right: 10px;
       z-index: 1000;
   }
-    
   }
